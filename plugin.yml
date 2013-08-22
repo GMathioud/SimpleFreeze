@@ -8,7 +8,7 @@ commands:
        usage: /freeze <playername>
        permission: simplefreeze.freeze
    unfreeze:
-       descriptiom: Allows the specified player to move again.
+       description: Allows the specified player to move again.
        usage: /unfreeze <playername>
        permission: simplefreeze.unfreeze
 permissions:
@@ -18,3 +18,5 @@ permissions:
     simplefreeze.unfreeze:
         default: op
         description: Grants access to /unfreeze
+    simplefreeze.exempt:
+        description: Players with this permission cannot be frozen.
