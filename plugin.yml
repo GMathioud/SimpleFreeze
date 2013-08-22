@@ -1,0 +1,20 @@
+name: SimpleFreeze
+main: tk.mycraft_public.SimpleFreeze
+version: 1.0
+description: SimpleFreeze Plugin made by Predator121.
+commands:
+   freeze:
+       description: Prevents the specified player from being moved.
+       usage: /freeze <playername>
+       permission: simplefreeze.freeze
+   unfreeze:
+       descriptiom: Allows the specified player to move again.
+       usage: /unfreeze <playername>
+       permission: simplefreeze.unfreeze
+permissions:
+    simplefreeze.freeze:
+        default: op
+        description: Grants access to /freeze.
+    simplefreeze.unfreeze:
+        default: op
+        description: Grants access to /unfreeze
